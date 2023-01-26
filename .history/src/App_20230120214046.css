@@ -46,7 +46,6 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-bottom: 3px;
 }
 
 .container .carrousel .item .info span{

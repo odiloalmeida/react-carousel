@@ -46,7 +46,6 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-bottom: 3px;
 }
 
 .container .carrousel .item .info span{
@@ -63,7 +62,7 @@ body{
   margin: 10px 0;
   color:#00a8fb;
   overflow:hidden;
-  min-height: 55px;
+  min-height: 20px;
 }
 
 .container .carrousel .item .info .old-price{

@@ -46,7 +46,7 @@ function App() {
               </div>
 
               <div className="info">
-                <span className="name">{name}</span>
+                <span aria-rowspan={2} className="name">{name}</span>
                 <span className="old-price"> R$ {oldPrice}</span>
                 <span className="price">R$ {price}</span>
               </div>

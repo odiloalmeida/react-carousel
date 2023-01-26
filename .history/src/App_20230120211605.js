@@ -16,13 +16,11 @@ function App() {
   const handleLeftClick = (e) =>{
     e.preventDefault();
     console.log(carousel.current.offsetWidth)
-    carousel.current.scrollLeft -= carousel.current.offsetWidth;
   }
 
   const handleRightClick = (e) =>{
     e.preventDefault();
     console.log(carousel.current.offsetWidth)
-    carousel.current.scrollLeft += carousel.current.offsetWidth;
   }
 
   if( !data || !data.length) return null;

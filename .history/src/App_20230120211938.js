@@ -16,7 +16,7 @@ function App() {
   const handleLeftClick = (e) =>{
     e.preventDefault();
     console.log(carousel.current.offsetWidth)
-    carousel.current.scrollLeft -= carousel.current.offsetWidth;
+    carousel.current.scrollRight -= carousel.current.offsetWidth;
   }
 
   const handleRightClick = (e) =>{

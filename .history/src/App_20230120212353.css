@@ -20,9 +20,11 @@ body{
 
 .container .carrousel{
   display: flex;
-  overflow-x: hidden;
   scroll-behavior: smooth;
-  width: 1200px;
+}
+
+.container .carrousel ::-webkit-scrollbar{
+  display: none;
 }
 
 .container .carrousel .item{
@@ -46,7 +48,6 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-bottom: 3px;
 }
 
 .container .carrousel .item .info span{
@@ -62,8 +63,6 @@ body{
   font-weight: bold;
   margin: 10px 0;
   color:#00a8fb;
-  overflow:hidden;
-  min-height: 55px;
 }
 
 .container .carrousel .item .info .old-price{
